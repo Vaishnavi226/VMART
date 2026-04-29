@@ -1,0 +1,61 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# Composer
+vendor/
+composer.lock
+
+# NPM
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Build/Distribution
+dist/
+build/
+
+# Database
+*.sql.backup
+database_backup/
+
+# Uploads (if needed to exclude real uploads)
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+.cache/
+*.cache
+
+# User-specific
+.DS_Store
+.idea
+*.sublime-workspace
+*.sublime-project
+
+.md/
